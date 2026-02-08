@@ -194,14 +194,13 @@
       padding-bottom: 4px;
     }
     .menu-wrapper {
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
         width: 36px;
-        height: 60px;
+        height: 70px;
         cursor: pointer;
         z-index: 11;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
         .hamburger-menu,
         .hamburger-menu:after,
         .hamburger-menu:before {
@@ -210,7 +209,7 @@
         }
         .hamburger-menu {
             position: relative;
-            transform: translateY(25px);
+            transform: none;
             background: $Green;
             transition: all 0ms 300ms;
             &:before {
@@ -293,15 +292,33 @@
 }
 
 @media (max-width: 827px) {
-    nav .nav {
-        display: none;
+  .main-navbar {
+    // Hide desktop menu on mobile and rely on the hamburger/drawer menu
+    .menu-ul {
+      display: none !important;
     }
+
+    .menu-wrapper {
+      display: flex;
+    }
+  }
 }
 
 @media (min-width: 827px) {
     .menu-wrapper,
     .menu-responsive {
         display: none;
+    }
+
+    .main-navbar {
+      // Ensure desktop menu lays out properly
+      .menu-ul {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
     }
 }
 

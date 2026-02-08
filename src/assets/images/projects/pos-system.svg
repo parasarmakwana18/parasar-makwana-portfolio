@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E6FBFF"/>
+      <stop offset="1" stop-color="#D3F4FA"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00B8D9"/>
+      <stop offset="1" stop-color="#00D4C3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#06232B" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" rx="28" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <!-- monitor -->
+    <rect x="260" y="220" width="860" height="520" rx="26" fill="#FFFFFF"/>
+    <rect x="300" y="270" width="780" height="380" rx="18" fill="url(#accent)" opacity="0.10"/>
+    <rect x="300" y="670" width="780" height="40" rx="20" fill="#B7EAF2"/>
+    <rect x="600" y="750" width="180" height="26" rx="13" fill="#B7EAF2"/>
+
+    <!-- receipt -->
+    <rect x="1180" y="260" width="260" height="480" rx="18" fill="#FFFFFF"/>
+    <path d="M1180 700l26 22 26-22 26 22 26-22 26 22 26-22 26 22 26-22 26 22 26-22v40h-260z"
+          fill="url(#accent)" opacity="0.10"/>
+    <rect x="1210" y="310" width="200" height="16" rx="8" fill="#B7EAF2"/>
+    <rect x="1210" y="350" width="170" height="16" rx="8" fill="#B7EAF2"/>
+    <rect x="1210" y="410" width="200" height="16" rx="8" fill="#B7EAF2"/>
+    <rect x="1210" y="450" width="180" height="16" rx="8" fill="#B7EAF2"/>
+    <rect x="1210" y="540" width="140" height="18" rx="9" fill="url(#accent)" opacity="0.22"/>
+    <text x="1310" y="610" text-anchor="middle" font-family="SF Mono, Consolas, Menlo, monospace" font-size="46" fill="#06232B">POS</text>
+  </g>
+
+  <text x="80" y="120" font-family="Calibre, system-ui, -apple-system, Segoe UI, Arial" font-size="44" fill="#06232B" opacity="0.85">
+    Point of Sale (POS) System
+  </text>
+  <text x="80" y="170" font-family="SF Mono, Consolas, Menlo, monospace" font-size="22" fill="#12424D" opacity="0.8">
+    WPF " Entity Framework " SQL Server " Real-time Analytics
+  </text>
+</svg>
+

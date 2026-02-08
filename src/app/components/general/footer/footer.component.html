@@ -1,0 +1,33 @@
+<footer class="site-footer" [@animateFooter]>
+    <div class="container footer-inner">
+        <div class="footer-links">
+            <a class="footer-call"
+               (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")'
+               [href]="emailMailto"
+               target="_blank"
+               rel="nofollow noopener noreferrer">
+                <i class="fas fa-envelope"></i>
+                <span class="footer-call-text">{{ emailText }}</span>
+            </a>
+
+            <a class="footer-call"
+               (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "linkedin")'
+               [href]="linkedinUrl"
+               target="_blank"
+               rel="nofollow noopener noreferrer">
+                <i class="fab fa-linkedin-in"></i>
+                <span class="footer-call-text">LinkedIn</span>
+            </a>
+
+            <a class="footer-call"
+               (click)='analyticsService.sendAnalyticEvent("click_call_phone", "footer", "phone")'
+               [href]="phoneTel"
+               rel="nofollow noopener noreferrer">
+                <i class="fas fa-phone-alt"></i>
+                <span class="footer-call-text">{{ phoneText }}</span>
+            </a>
+        </div>
+
+        <div class="footer-credit">Developed by Parasar Makwana</div>
+    </div>
+</footer>

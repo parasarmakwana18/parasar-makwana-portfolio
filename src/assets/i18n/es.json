@@ -1,0 +1,153 @@
+{
+  "Header.Item1": "Acerca de mí",
+  "Header.Item2": "Experiencia",
+  "Header.Item3": "Proyectos",
+  "Header.Item4": "Contacto",
+  "Header.cvBtn": "Conectemos",
+  "Header.cvName": "mailto:parasarmakwana18@gmail.com",
+  "Loading": "Cargando...",
+
+  "Banner.Pretitle": "Hola! Mi nombre es",
+  "Banner.Description": "Soy <span class='underline'>desarrollador full-stack en ASP.NET</span> con <span class='underline'>más de 2 años de experiencia</span>, especializado en <span class='underline'>.NET Core</span> y <span class='underline'>Web APIs</span>. Desarrollo aplicaciones web y de escritorio seguras y escalables con <span class='underline'>SQL Server/MySQL</span>, arquitectura limpia (SOLID, patrones de diseño) y foco en rendimiento.",
+  "Banner.ActionBtn": "Conectemos",
+
+  "AboutMe.Title": "Acerca de mí",
+  "AboutMe.Paragraphs": [
+    "Desarrollador <span class='underline'>full-stack en ASP.NET</span> con <span class='underline'>más de 2 años de experiencia</span> entregando aplicaciones web escalables, de alto rendimiento y sistemas empresariales.",
+    "Especializado en <span class='underline'>.NET Core</span>, <span class='underline'>ASP.NET MVC</span> y <span class='underline'>Web APIs REST</span>, aplicando principios <span class='underline'>SOLID</span> y patrones de diseño para una arquitectura mantenible.",
+    "Experiencia en diseño y optimización de bases de datos (<span class='underline'>SQL Server</span>, <span class='underline'>MySQL</span>) y frontends modernos con <span class='underline'>Bootstrap</span> y JavaScript.",
+    "Algunas tecnologías con las que trabajo incluyen (pero no se limitan a):"
+  ],
+
+  "Experience.Title": "Experiencia",
+  "Experience.Jobs": [
+    {
+      "Tab": "Techcronus",
+      "Company": "Techcronus Business Solution Pvt. Lts.",
+      "Title": "Desarrollador de Software (Full-Stack)",
+      "Date": "Enero 2023 - Actualidad",
+      "Description": [
+        "Desarrollo full-stack de aplicaciones empresariales usando ASP.NET Core, MVC y Web API.",
+        "Diseño y desarrollo de APIs REST con rendimiento optimizado para integraciones.",
+        "Aplicación de principios SOLID y patrones (Repository Pattern, Dependency Injection) para una arquitectura mantenible.",
+        "Automatización y procesamiento en paralelo para mejorar el rendimiento y la eficiencia operativa.",
+        "Gestión end-to-end de múltiples proyectos en paralelo, desde reuniones con cliente hasta despliegue en producción.",
+        "Resolución de incidencias en producción para minimizar tiempos de inactividad y asegurar entregas estables.",
+        "Colaboración con equipos multifuncionales bajo metodologías ágiles."
+      ]
+    },
+    {
+      "Tab": "Freelance",
+      "Title": "Desarrollador freelance/por contrato",
+      "Date": "Disponible para freelance y contratos",
+      "Description": [
+        "Aplicaciones web en ASP.NET Core y desarrollo/diseño de APIs REST.",
+        "Ayudé a crear y mejorar un <span class='underline'>sitio e-commerce para un gimnasio</span>: catálogo/productos, mejoras de UI, rendimiento y mejoras continuas.",
+        "Desarrollo de aplicaciones de escritorio con WPF y .NET MAUI.",
+        "Integraciones con servicios de terceros (Google APIs y otros).",
+        "Diseño, optimización y migración de bases de datos (SQL Server, MySQL).",
+        "Modernización de sistemas .NET, optimización de rendimiento y mantenimiento continuo."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Mis proyectos",
+  "FeatureProjects.Label": "Proyecto Destacado",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Convertidor de reportes PDF a Excel (Extracción con IA)",
+      "Description": "Desarrollé una solución automatizada de <span class='underline'>PDF a Excel</span> usando <span class='underline'>Google Claude API</span> y <span class='underline'>OpenAI API</span> para extraer y normalizar datos de forma precisa. Entregué una <span class='underline'>aplicación de consola</span> y una <span class='underline'>Web API</span> con <span class='underline'>automatización por cola de trabajos</span> para el equipo de CRM, procesando reportes de forma confiable y escalable.",
+      "imgs": [
+        "assets/images/projects/pdf-to-excel.svg",
+        "assets/images/projects/pdf-to-excel-2.svg",
+        "assets/images/projects/pdf-to-excel-3.svg"
+      ],
+      "Technologies": [".NET", "Web API", "App de consola", "Cola de trabajos", "Claude API", "OpenAI API", "Excel"]
+    },
+    {
+      "Title": "Sistema centralizado de precios",
+      "Description": "Desarrollé desde cero un sistema seguro de gestión de precios con <span class='underline'>autenticación multicapa</span> y <span class='underline'>OTP</span>. Implementé <span class='underline'>APIs REST</span>, <span class='underline'>procesamiento en paralelo</span> para actualizaciones concurrentes y un esquema optimizado en <span class='underline'>SQL Server</span> para consultas de alto volumen.",
+      "imgs": [
+        "assets/images/projects/pricing-system.svg",
+        "assets/images/projects/pricing-system-2.svg",
+        "assets/images/projects/pricing-system-3.svg"
+      ],
+      "Technologies": [".NET Core MVC", "APIs REST", "SQL Server", "Procesamiento paralelo", "Autenticación/OTP"]
+    },
+    {
+      "Title": "Sistema de gestión de graffiti",
+      "Description": "Desarrollé una plataforma para rastreo y gestión de incidencias con integración de <span class='underline'>Google Maps</span> y <span class='underline'>marcado por polígonos</span>. Entregué una arquitectura MVC limpia con <span class='underline'>Repository Pattern</span>, diseño modular y consultas optimizadas en <span class='underline'>MySQL</span>.",
+      "imgs": [
+        "assets/images/projects/graffiti-system.svg",
+        "assets/images/projects/graffiti-system-2.svg",
+        "assets/images/projects/graffiti-system-3.svg"
+      ],
+      "Technologies": [".NET Core MVC", "Web API", "MySQL", "Google Maps API", "JavaScript"]
+    },
+    {
+      "Title": "Sistema POS (Point of Sale)",
+      "Description": "Mejoré y mantuve un sistema POS de escritorio con interfaz moderna en <span class='underline'>WPF</span>, procesamiento confiable de transacciones y operaciones optimizadas con <span class='underline'>Entity Framework</span> y <span class='underline'>SQL Server</span>. Añadí paneles de analítica en tiempo real e integraciones con sistemas existentes.",
+      "imgs": [
+        "assets/images/projects/pos-system.svg",
+        "assets/images/projects/pos-system-2.svg",
+        "assets/images/projects/pos-system-3.svg"
+      ],
+      "Technologies": ["WPF", "Entity Framework", "SQL Server", "APIs REST", "JavaScript/jQuery"]
+    }
+  ],
+
+  "OtherProjects.Title": "Más proyectos",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Sitio e-commerce para gimnasio (Freelance)",
+      "Description": "Ayudé a construir y mejorar un sitio e-commerce para un gimnasio, enfocándome en catálogo/productos, pulido de UI/UX, rendimiento y mantenibilidad.",
+      "Technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", ".NET"]
+    },
+    {
+      "Title": "Integración de portal de proveedores",
+      "Description": "Colaboré en un portal de gestión de proveedores basado en .NET MVC, con UI/UX consistente e integraciones de APIs para mejorar el onboarding y los flujos de administración.",
+      "Technologies": [".NET MVC", "APIs REST", "SQL", "Bootstrap"]
+    },
+    {
+      "Title": "Sistema de gestión de candidatos",
+      "Description": "Desarrollé una plataforma de reclutamiento con seguimiento y filtrado de candidatos, gestión de perfiles y un portal de administración para usuarios y vacantes.",
+      "Technologies": ["C# .NET Core", "ADO.NET", "SQL Server", "Bootstrap", "JavaScript/jQuery"]
+    },
+    {
+      "Title": "Herramientas de escritorio y automatización",
+      "Description": "Entregué utilidades y automatizaciones para mejorar la productividad, optimizar procesos internos y aumentar la eficiencia operativa.",
+      "Technologies": ["WPF", ".NET MAUI", "C#", "Procesamiento en paralelo"]
+    },
+    {
+      "Title": "Integraciones de APIs",
+      "Description": "Implementé integraciones con servicios de terceros (incluyendo Google APIs) para conectar sistemas empresariales y mejorar la precisión de datos y la experiencia de usuario.",
+      "Technologies": ["APIs REST", "APIs SOAP", "Google APIs", ".NET"]
+    },
+    {
+      "Title": "Modernización de sistemas legacy",
+      "Description": "Modernicé aplicaciones .NET legacy refactorizando hacia una arquitectura limpia, mejorando el rendimiento y entregando nuevos módulos con mínimo tiempo de inactividad.",
+      "Technologies": [".NET", "C#", "Refactorización", "Optimización de rendimiento", "SQL"]
+    }
+  ],
+
+  "Contact.Pretitle": "Y... ¿ahora?",
+  "Contact.Title": "Hablemos",
+  "Contact.Content": "Disponible para trabajo freelance y por contrato. Me enfoco en ASP.NET Core, APIs, integraciones y automatización—entregando funcionalidades confiables con comunicación clara.",
+  "Contact.DetailsTitle": "Detalles rápidos",
+  "Contact.Details": [
+    "Disponible para roles freelance y por contrato",
+    "Zona horaria: IST (UTC+05:30)",
+    "Tiempo de respuesta habitual: dentro de 24 horas",
+    "Principalmente remoto, disponible para presencial (India) si se requiere"
+  ],
+  "Contact.ServicesTitle": "Puedo ayudarte con",
+  "Contact.Services": [
+    "Desarrollo con ASP.NET Core / Web API",
+    "Diseño y rendimiento de bases de datos (SQL Server / MySQL)",
+    "Integraciones con APIs de terceros (Google APIs, pagos, etc.)",
+    "Automatización y herramientas internas (WPF / .NET MAUI)"
+  ],
+  "Contact.Note": "Comparte un resumen (objetivo, plazo, stack y restricciones). Te responderé con los próximos pasos y un plan claro.",
+  "Contact.LinkedInLabel": "Conectar en LinkedIn",
+  "Contact.Btn": "Conectemos"
+}

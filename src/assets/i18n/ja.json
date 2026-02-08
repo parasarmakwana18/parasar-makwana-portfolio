@@ -1,0 +1,154 @@
+{
+  "Header.Item1": "自己紹介",
+  "Header.Item2": "経験",
+  "Header.Item3": "プロジェクト",
+  "Header.Item4": "お問い合わせ",
+  "Header.cvBtn": "つながりましょう",
+  "Header.cvName": "mailto:parasarmakwana18@gmail.com",
+  "Loading": "読み込み中...",
+
+  "Banner.Pretitle": "こんにちは！私の名前は",
+  "Banner.Description": "<span class='underline'>2年以上の経験</span>を持つ<span class='underline'>ASP.NETフルスタック開発者</span>です。<span class='underline'>.NET Core</span> と <span class='underline'>Web API</span> を中心に、<span class='underline'>SQL Server/MySQL</span> を用いた安全でスケーラブルなWeb/デスクトップアプリを、SOLIDや設計パターンに基づくクリーンアーキテクチャで構築します。",
+  "Banner.ActionBtn": "つながりましょう",
+
+  "AboutMe.Title": "自己紹介",
+  "AboutMe.Paragraphs": [
+    "<span class='underline'>2年以上の実務経験</span>を持つASP.NETフルスタック開発者として、高性能なWebアプリケーションやエンタープライズシステムを提供してきました。",
+    "<span class='underline'>.NET Core</span>、<span class='underline'>ASP.NET MVC</span>、<span class='underline'>RESTful Web API</span> を専門とし、<span class='underline'>SOLID</span>原則や設計パターンを適用して保守性の高いアーキテクチャを実現します。",
+    "<span class='underline'>SQL Server</span>・<span class='underline'>MySQL</span> のDB設計/最適化に加え、<span class='underline'>Bootstrap</span> とJavaScriptによるモダンなフロントエンドにも対応します。",
+    "主に扱う技術（抜粋）:"
+  ],
+
+  "Experience.Title": "経験",
+  "Experience.Jobs": [
+    {
+      "Tab": "Techcronus",
+      "Company": "Techcronus Business Solution Pvt. Lts.",
+      "Title": "ソフトウェア開発者（フルスタック）",
+      "Date": "2023年1月 - 現在",
+      "Description": [
+        "ASP.NET Core、MVC、Web API を用いたエンタープライズアプリのフルスタック開発を担当。",
+        "統合を前提とした高性能なREST APIを設計・開発。",
+        "SOLID原則とパターン（Repository、DI）を適用し、保守性の高い設計を実現。",
+        "自動化と並列処理により、システム性能と業務効率を改善。",
+        "クライアントとの要件整理から本番リリースまで、複数案件を並行して推進。",
+        "本番環境の不具合を調査・解決し、ダウンタイム最小化と安定リリースに貢献。",
+        "アジャイルで部門横断チームと連携。"
+      ]
+    },
+    {
+      "Tab": "Freelance",
+      "Title": "フリーランス／契約開発",
+      "Date": "フリーランス・契約案件対応可",
+      "Description": [
+        "ASP.NET Core を用いたWebアプリおよびREST APIの設計・開発。",
+        "<span class='underline'>ジム向けECサイト</span>の構築・改善：商品/カタログ導線、UI改善、パフォーマンス最適化、継続的な機能改善。",
+        "WPF / .NET MAUI によるデスクトップアプリ開発。",
+        "外部サービス連携（Google APIs など）。",
+        "DB設計・最適化・移行（SQL Server、MySQL）。",
+        "レガシー .NET のモダナイズ、性能改善、運用保守。"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "プロジェクト",
+  "FeatureProjects.Label": "注目プロジェクト",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "PDF to Excel Report Converter (AI Extraction)",
+      "Description": "<span class='underline'>PDF→Excel</span>のレポート変換を自動化。<span class='underline'>Google Claude API</span> と <span class='underline'>OpenAI API</span> を統合し、クライアントデータを高精度に抽出・正規化しました。<span class='underline'>コンソールアプリ</span>と<span class='underline'>Web API</span>を提供し、CRMチーム向けに<span class='underline'>ジョブキュー自動化</span>で大規模処理を安定運用できるようにしました。",
+      "imgs": [
+        "assets/images/projects/pdf-to-excel.svg",
+        "assets/images/projects/pdf-to-excel-2.svg",
+        "assets/images/projects/pdf-to-excel-3.svg"
+      ],
+      "Technologies": [".NET", "Web API", "Console App", "Job Queue", "Claude API", "OpenAI API", "Excel"]
+    },
+    {
+      "Title": "Centralized Pricing System",
+      "Description": "<span class='underline'>多層認証</span>と<span class='underline'>OTP</span>を備えた価格管理システムをゼロから構築。<span class='underline'>REST API</span>と<span class='underline'>並列処理</span>で同時更新に対応し、高負荷クエリ向けに<span class='underline'>SQL Server</span>スキーマを最適化しました。",
+      "imgs": [
+        "assets/images/projects/pricing-system.svg",
+        "assets/images/projects/pricing-system-2.svg",
+        "assets/images/projects/pricing-system-3.svg"
+      ],
+      "Technologies": [".NET Core MVC", "REST APIs", "SQL Server", "Parallel Programming", "Authentication/OTP"]
+    },
+    {
+      "Title": "Graffiti Management System",
+      "Description": "米国クライアント向けに、<span class='underline'>Google Maps</span>連携と<span class='underline'>ポリゴン描画</span>で被害範囲を可視化する管理システムを開発。<span class='underline'>Repository Pattern</span>を用いたMVCアーキテクチャと、最適化した<span class='underline'>MySQL</span>クエリでモジュール連携を実現しました。",
+      "imgs": [
+        "assets/images/projects/graffiti-system.svg",
+        "assets/images/projects/graffiti-system-2.svg",
+        "assets/images/projects/graffiti-system-3.svg"
+      ],
+      "Technologies": [".NET Core MVC", "Web API", "MySQL", "Google Maps API", "JavaScript"]
+    },
+    {
+      "Title": "Point of Sale (POS) System",
+      "Description": "<span class='underline'>WPF</span>によるモダンUIを備えたWindows POSを保守・改善。<span class='underline'>Entity Framework</span>と<span class='underline'>SQL Server</span>でDB処理を最適化し、リアルタイム分析ダッシュボードや既存システムとの連携を追加しました。",
+      "imgs": [
+        "assets/images/projects/pos-system.svg",
+        "assets/images/projects/pos-system-2.svg",
+        "assets/images/projects/pos-system-3.svg"
+      ],
+      "Technologies": ["WPF", "Entity Framework", "SQL Server", "REST APIs", "JavaScript/jQuery"]
+    }
+  ],
+
+  "OtherProjects.Title": "その他のプロジェクト",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Gym E-commerce Website (Freelance)",
+      "Description": "ジム向けECサイトの構築・改善。商品/カタログ導線、UI/UX、パフォーマンス、保守性の向上に注力しました。",
+      "Technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", ".NET"]
+    },
+    {
+      "Title": "Vendor Portal Integration",
+      "Description": ".NET MVCベースのベンダーポータルを共同開発。統一されたUI/UXとAPI連携で、ベンダーオンボーディングと管理業務を改善しました。",
+      "Technologies": [".NET MVC", "REST APIs", "SQL", "Bootstrap"]
+    },
+    {
+      "Title": "Candidate Management System",
+      "Description": "採用管理プラットフォームを開発。候補者の追跡・フィルタリング・プロフィール管理に加え、求人投稿とユーザー管理の管理画面を構築しました。",
+      "Technologies": ["C# .NET Core", "ADO.NET", "SQL Server", "Bootstrap", "JavaScript/jQuery"]
+    },
+    {
+      "Title": "Desktop Tools & Automation",
+      "Description": "業務効率化のためのデスクトップツールと自動化スクリプトを提供し、社内ワークフローを改善しました。",
+      "Technologies": ["WPF", ".NET MAUI", "C#", "Parallel Processing"]
+    },
+    {
+      "Title": "API Integrations",
+      "Description": "Google APIsを含む外部サービス連携を実装し、エンタープライズシステムの接続とデータ品質・UX向上を実現しました。",
+      "Technologies": ["REST APIs", "SOAP APIs", "Google APIs", ".NET"]
+    },
+    {
+      "Title": "レガシーシステムのモダナイズ",
+      "Description": "レガシーな.NETアプリをクリーンアーキテクチャ寄りにリファクタリングし、性能改善と新機能追加を最小限の停止で実現しました。",
+      "Technologies": [".NET", "C#", "リファクタリング", "性能改善", "SQL"]
+    }
+  ],
+
+  "Contact.Pretitle": "次は？",
+  "Contact.Title": "ご相談ください",
+  "Contact.Content": "フリーランス／契約案件に対応しています。ASP.NET Core、API開発、外部連携、業務自動化を中心に、信頼性の高い実装と丁寧なコミュニケーションで提供します。",
+  "Contact.DetailsTitle": "概要",
+  "Contact.Details": [
+    "フリーランス／契約のご相談が可能です",
+    "タイムゾーン：IST (UTC+05:30)",
+    "通常の返信目安：24時間以内",
+    "リモート中心（必要に応じてインド国内の出社も検討）"
+  ],
+  "Contact.ServicesTitle": "対応できること",
+  "Contact.Services": [
+    "ASP.NET Core / Web API 開発",
+    "DB設計・パフォーマンス（SQL Server / MySQL）",
+    "外部API連携（Google APIs、決済など）",
+    "自動化・社内ツール（WPF / .NET MAUI）"
+  ],
+  "Contact.Note": "目的・期限・技術スタック・制約などを簡単に共有してください。次のステップと進め方を明確にご案内します。",
+  "Contact.LinkedInLabel": "LinkedInでつながる",
+  "Contact.Btn": "つながりましょう"
+}
+

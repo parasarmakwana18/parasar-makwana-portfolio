@@ -1,0 +1,359 @@
+@use "../../../../variables" as *;
+
+/*
+  ✨ BOTÓN SÚPER LIMPIO SIN FONDOS:
+
+  🎯 ACTUAL - Solo Borde + Texto + Efectos Internos:
+  - Solo el borde básico del botón
+  - Sin pseudo-elementos de fondo
+  - Colores puros que contrastan naturalmente
+  - Transformaciones 3D pronunciadas
+
+  🔥 CARACTERÍSTICAS TÉCNICAS:
+  - Sin ::before ni ::after en el botón = máxima limpieza
+  - Efectos internos: partículas, shine, liquid waves
+  - transform: translateY(-4px) scale(1.01) en hover (sin 3D para evitar blur)
+  - z-index simple: texto (5), glitch (6)
+
+  ⚡ COLORES CONTRASTANTES:
+  - Estado normal: Verde ($Green) con sombra negra fuerte
+  - Estado hover: Blanco (#ffffff) con sombra negra profunda
+  - Efecto glitch: Rosa (#ff0066) y Verde agua (#00ffaa) brillantes
+  - Código ultra limpio sin elementos innecesarios
+*/
+
+.dynamic-btn {
+  position: relative;
+  display: inline-block;
+  padding: 1.25rem 2rem;
+  border: 2px solid $Green;
+  border-radius: 8px;
+  color: $Green;
+  font-family: $CodeFont;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease, transform 160ms ease;
+  // Keep text crisp (avoid 3D transforms that blur text)
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+
+        // Estado inicial
+  background: transparent;
+
+  // Disable heavy visual effects (keep UX clean)
+  .btn-bg,
+  .liquid-container,
+  .particles-container,
+  .shine-effect,
+  .glitch-overlay {
+    display: none;
+  }
+
+  // Contenedor de ondas líquidas
+  .liquid-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .liquid-wave {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(
+      circle at center,
+      rgba(0, 184, 217, 0.15) 0%,
+      rgba(0, 184, 217, 0.1) 30%,
+      transparent 70%
+    );
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .wave-1 {
+    top: 50%;
+    left: 30%;
+    animation-delay: 0s;
+  }
+
+  .wave-2 {
+    top: 50%;
+    left: 70%;
+    animation-delay: 0.2s;
+  }
+
+  .wave-3 {
+    top: 50%;
+    left: 50%;
+    animation-delay: 0.4s;
+  }
+
+  // Contenedor de partículas
+  .particles-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 3;
+  }
+
+  .particle {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: $Green;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    &:nth-child(1) { top: 20%; left: 15%; transition-delay: 0.1s; }
+    &:nth-child(2) { top: 80%; left: 25%; transition-delay: 0.15s; }
+    &:nth-child(3) { top: 60%; left: 80%; transition-delay: 0.2s; }
+    &:nth-child(4) { top: 40%; left: 70%; transition-delay: 0.25s; }
+    &:nth-child(5) { top: 30%; left: 50%; transition-delay: 0.3s; }
+    &:nth-child(6) { top: 70%; left: 60%; transition-delay: 0.35s; }
+    &:nth-child(7) { top: 50%; left: 20%; transition-delay: 0.4s; }
+    &:nth-child(8) { top: 85%; left: 75%; transition-delay: 0.45s; }
+  }
+
+  // Efecto de brillo
+  .shine-effect {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+      45deg,
+      transparent 40%,
+      rgba(255, 255, 255, 0.1) 50%,
+      transparent 60%
+    );
+    transform: translateX(-100%) rotate(45deg);
+    transition: transform 0.6s ease;
+    z-index: 4;
+  }
+
+        // Texto del botón
+  .btn-text {
+    position: relative;
+    z-index: 5;
+    transition: all 0.3s ease;
+    color: $Green;
+    font-weight: 600;
+  }
+
+  // Efecto glitch overlay
+  .glitch-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .glitch-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: $CodeFont;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow:
+      0 2px 4px rgba(0, 0, 0, 1),
+      0 0 15px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.1s ease;
+
+    &:nth-child(1) {
+      color: #ff0066;
+      animation: none;
+      text-shadow:
+        0 0 10px rgba(255, 0, 102, 0.8),
+        0 2px 4px rgba(0, 0, 0, 1);
+    }
+
+    &:nth-child(2) {
+      color: #00ffaa;
+      animation: none;
+      text-shadow:
+        0 0 10px rgba(0, 255, 170, 0.8),
+        0 2px 4px rgba(0, 0, 0, 1);
+    }
+  }
+
+  // Normal, clean hover
+  &:hover {
+    transform: translateY(-1px);
+    background-color: $GreenOpacity;
+    border-color: rgba(0, 184, 217, 0.55);
+
+    .btn-text {
+      color: $Slate;
+      font-weight: 700;
+    }
+  }
+
+  // Estado activo/presionado
+  &:active {
+    transform: translateY(0px);
+    background-color: rgba(0, 184, 217, 0.18);
+  }
+
+  &:focus-visible {
+    outline: 3px solid rgba(0, 184, 217, 0.35);
+    outline-offset: 3px;
+  }
+
+    // Estado disabled
+  &.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+
+    &:hover {
+      transform: none;
+    }
+  }
+
+      // Variante secundaria
+  &.dynamic-btn-secondary {
+    border-color: $Slate;
+    color: $Slate;
+
+    .btn-text {
+      color: $Slate;
+      font-weight: 600;
+    }
+
+    &:hover {
+      border-color: rgba(6, 35, 43, 0.35);
+      background-color: rgba(6, 35, 43, 0.06);
+
+      .btn-text {
+        color: $Slate;
+        font-weight: 600;
+      }
+    }
+  }
+
+  // Variante small - para el menú
+  &.dynamic-btn-small {
+    padding: 0.366263rem 1rem;
+    font-size: 11px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transform: translateZ(0);
+
+    .btn-text {
+      font-weight: 500;
+    }
+
+    .particle {
+      width: 1px;
+      height: 1px;
+    }
+
+    .liquid-wave {
+      width: 150%;
+      height: 150%;
+    }
+
+    .glitch-text {
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    &:hover {
+      transform: translateY(-2px) scale(1.01);
+      
+      .btn-text {
+        font-weight: 600;
+      }
+    }
+
+    // Responsive para small
+    @media (max-width: 768px) {
+      padding: 0.4rem 0.8rem;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 0.35rem 0.7rem;
+      font-size: 10px;
+    }
+  }
+}
+
+// Animaciones keyframes
+@keyframes bgFlow {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes glitch1 {
+  0% { transform: translate(-50%, -50%); }
+  20% { transform: translate(-52%, -48%); }
+  40% { transform: translate(-48%, -52%); }
+  60% { transform: translate(-52%, -48%); }
+  80% { transform: translate(-48%, -52%); }
+  100% { transform: translate(-50%, -50%); }
+}
+
+@keyframes glitch2 {
+  0% { transform: translate(-50%, -50%); }
+  25% { transform: translate(-48%, -52%); }
+  50% { transform: translate(-52%, -48%); }
+  75% { transform: translate(-48%, -52%); }
+  100% { transform: translate(-50%, -50%); }
+}
+
+@keyframes glitchFlash {
+  0% { opacity: 0; }
+  50% { opacity: 0.7; }
+  100% { opacity: 0; }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .dynamic-btn {
+    padding: 1rem 1.5rem;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .dynamic-btn {
+    padding: 0.875rem 1.25rem;
+    font-size: 11px;
+  }
+}

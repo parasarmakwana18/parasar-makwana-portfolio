@@ -1,0 +1,82 @@
+<section class="section" id="contact">
+  <div class="container contact">
+    <div class="section-box">
+      <div class="mb-4" data-animate="fadeInDown" data-animate-duration="1000">
+        <h3 class="contact-pre-title big-subtitle">
+          {{ "Contact.Pretitle" | translate }}
+        </h3>
+        <h4 class="e-font contact-title big-title"
+            data-animate="typewriter"
+            data-animate-delay="500">
+          {{ "Contact.Title" | translate }}
+        </h4>
+      </div>
+      <p class="connect-lead"
+         data-animate="morphIn"
+         data-animate-duration="1200"
+         data-animate-delay="2500">
+        {{ "Contact.Content" | translate }}
+      </p>
+
+      <div class="connect-panels"
+           data-animate="fadeInUp"
+           data-animate-duration="900"
+           data-animate-delay="2900">
+        <div class="connect-panel">
+          <h5 class="connect-panel-title">{{ "Contact.DetailsTitle" | translate }}</h5>
+          <ul class="connect-list">
+            <li *ngFor='let item of "Contact.Details" | translate'>
+              <i class="fas fa-check-circle connect-icon" aria-hidden="true"></i>
+              <span>{{ item }}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="connect-panel">
+          <h5 class="connect-panel-title">{{ "Contact.ServicesTitle" | translate }}</h5>
+          <ul class="connect-list">
+            <li *ngFor='let item of "Contact.Services" | translate'>
+              <i class="fas fa-bolt connect-icon" aria-hidden="true"></i>
+              <span>{{ item }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="connect-note"
+         data-animate="fadeInUp"
+         data-animate-duration="800"
+         data-animate-delay="3200">
+        {{ "Contact.Note" | translate }}
+      </p>
+      <div class="mt-5"
+           data-animate="scaleIn"
+           data-animate-duration="800"
+           data-animate-delay="3500">
+        <app-dynamic-button
+          [text]='"Contact.Btn" | translate'
+          [href]="emailMailto"
+          target="_blank"
+          analyticsEvent="click_send_mail"
+          analyticsCategory="contact"
+          analyticsLabel="email"
+          variant="primary">
+        </app-dynamic-button>
+      </div>
+
+      <div class="connect-social"
+           data-animate="fadeInUp"
+           data-animate-duration="800"
+           data-animate-delay="3800">
+        <a class="connect-social-link"
+           (click)='analyticsService.sendAnalyticEvent("click_linkedin", "contact", "linkedin")'
+           [href]="linkedinUrl"
+           target="_blank"
+           rel="nofollow noopener noreferrer">
+          <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+          <span>{{ "Contact.LinkedInLabel" | translate }}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

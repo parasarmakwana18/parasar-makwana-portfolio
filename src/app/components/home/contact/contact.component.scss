@@ -1,0 +1,147 @@
+@use "./../../../../variables" as *;
+
+.contact {
+  margin: 0 auto;
+  max-width: 920px;
+  padding: 0 12px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .section-box {
+    width: 100%;
+  }
+
+  .contact-pre-title {
+    color: $Green;
+    font-size: 14px;
+    font-family: $CodeFont;
+    font-weight: normal;
+    margin: 0 0 14px;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+
+  .contact-title {
+    margin: 0 auto;
+    width: fit-content;
+    font-size: clamp(34px, 6vw, 56px);
+    font-weight: 700;
+    color: $LightestSlate;
+    line-height: 1.1;
+    white-space: normal;
+    text-wrap: balance;
+  }
+
+  .connect-lead {
+    margin: 18px auto 0;
+    max-width: 64ch;
+    color: $Slate;
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  .connect-panels {
+    margin: 22px auto 0;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    text-align: left;
+  }
+
+  .connect-panel {
+    background: rgba(255, 255, 255, 0.68);
+    border: 1px solid rgba(6, 35, 43, 0.08);
+    box-shadow: 0 10px 30px rgba(6, 35, 43, 0.06);
+    border-radius: 12px;
+    padding: 16px 16px 14px;
+    backdrop-filter: blur(10px);
+  }
+
+  .connect-panel-title {
+    margin: 0 0 12px;
+    color: $Green;
+    font-size: 12px;
+    font-family: $CodeFont;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+  }
+
+  .connect-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 10px;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      color: $Slate;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+  }
+
+  .connect-icon {
+    margin-top: 3px;
+    color: $Green;
+    flex: 0 0 auto;
+  }
+
+  .connect-note {
+    margin: 16px auto 0;
+    max-width: 70ch;
+    color: $LightSlate;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .connect-social {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .connect-social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(6, 35, 43, 0.10);
+    background: rgba(255, 255, 255, 0.55);
+    color: $Slate;
+    font-family: $CodeFont;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: background 150ms ease, border-color 150ms ease, transform 150ms ease;
+
+    i {
+      color: $Green;
+      font-size: 16px;
+    }
+
+    &:hover {
+      background: rgba(0, 184, 217, 0.08);
+      border-color: rgba(0, 184, 217, 0.25);
+      transform: translateY(-1px);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 56px 12px;
+
+    .connect-panels {
+      grid-template-columns: 1fr;
+    }
+  }
+}

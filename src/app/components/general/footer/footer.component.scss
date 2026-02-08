@@ -1,0 +1,69 @@
+@use "./../../../../variables" as *;
+
+.site-footer{
+    padding: 26px 0 22px;
+    color: $LightSlate;
+    background: rgba(255, 255, 255, 0.35);
+    border-top: 1px solid rgba(6, 35, 43, 0.08);
+    backdrop-filter: blur(10px);
+
+    .footer-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+
+    .footer-links{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer-call{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 12px;
+        border-radius: 12px;
+        border: 1px solid rgba(6, 35, 43, 0.10);
+        background: rgba(255, 255, 255, 0.65);
+        color: $Slate;
+        font-family: $CodeFont;
+        font-size: 13px;
+        letter-spacing: 0.06em;
+        text-decoration: none;
+        transition: background 150ms ease, border-color 150ms ease, transform 150ms ease;
+
+        i{
+            color: $Green;
+            font-size: 16px;
+        }
+
+        &:hover{
+            background: rgba(0, 184, 217, 0.08);
+            border-color: rgba(0, 184, 217, 0.25);
+            transform: translateY(-1px);
+        }
+    }
+
+    .footer-credit{
+        font-family: $CodeFont;
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        color: $LightSlate;
+        padding: 8px 10px;
+        border-radius: 12px;
+        border: 1px solid rgba(6, 35, 43, 0.08);
+        background: rgba(255, 255, 255, 0.55);
+    }
+
+    @media (max-width: 600px){
+        .footer-inner{
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}

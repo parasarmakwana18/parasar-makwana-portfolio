@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E6FBFF"/>
+      <stop offset="0.45" stop-color="#D3F4FA"/>
+      <stop offset="1" stop-color="#B7EAF2"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00B8D9"/>
+      <stop offset="1" stop-color="#00D4C3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <g opacity="0.9">
+    <circle cx="340" cy="280" r="180" fill="url(#accent)" opacity="0.12"/>
+    <circle cx="1620" cy="220" r="240" fill="url(#accent)" opacity="0.10"/>
+    <circle cx="1480" cy="820" r="280" fill="url(#accent)" opacity="0.10"/>
+    <circle cx="520" cy="860" r="260" fill="url(#accent)" opacity="0.10"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M0 680c240-120 450-140 720-40 300 112 560 72 880-90 150-76 260-96 320-78v608H0z" fill="#FFFFFF" opacity="0.55"/>
+  </g>
+  <text x="140" y="170" font-family="Calibre, system-ui, -apple-system, Segoe UI, Arial" font-size="56" fill="#06232B" opacity="0.85">
+    Parasar Makwana
+  </text>
+  <text x="140" y="240" font-family="SF Mono, Consolas, Menlo, monospace" font-size="24" fill="#12424D" opacity="0.8">
+    ASP.NET Full-Stack Developer " .NET Core " Web APIs
+  </text>
+</svg>
+

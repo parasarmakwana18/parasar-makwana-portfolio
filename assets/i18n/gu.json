@@ -1,0 +1,154 @@
+{
+  "Header.Item1": "મારા વિશે",
+  "Header.Item2": "અનુભવ",
+  "Header.Item3": "પ્રોજેક્ટ્સ",
+  "Header.Item4": "સંપર્ક",
+  "Header.cvBtn": "ચાલો જોડાઈએ",
+  "Header.cvName": "mailto:parasarmakwana18@gmail.com",
+  "Loading": "લોડ થઈ રહ્યું છે...",
+
+  "Banner.Pretitle": "હાય! મારું નામ છે",
+  "Banner.Description": "હું <span class='underline'>2+ વર્ષના અનુભવ</span> ધરાવતો <span class='underline'>ASP.NET ફુલ-સ્ટેક ડેવલપર</span> છું, <span class='underline'>.NET Core</span> અને <span class='underline'>Web APIs</span> માં વિશેષતા સાથે. હું <span class='underline'>SQL Server/MySQL</span> સાથે સુરક્ષિત અને સ્કેલેબલ વેબ અને ડેસ્કટોપ એપ્લિકેશન્સ બનાવું છું, SOLID અને ડિઝાઇન પૅટર્ન્સ આધારિત ક્લીન આર્કિટેક્ચર અને પરફોર્મન્સ-ફોકસ્ડ અભિગમ સાથે.",
+  "Banner.ActionBtn": "ચાલો જોડાઈએ",
+
+  "AboutMe.Title": "મારા વિશે",
+  "AboutMe.Paragraphs": [
+    "ASP.NET ફુલ-સ્ટેક ડેવલપર તરીકે <span class='underline'>2+ વર્ષનો હેન્ડ્સ-ઓન અનુભવ</span> ધરાવું છું અને સ્કેલેબલ, હાઇ-પરફોર્મન્સ વેબ એપ્લિકેશન તથા એન્ટરપ્રાઇઝ સિસ્ટમ્સ ડિલિવર કરી છે.",
+    "<span class='underline'>.NET Core</span>, <span class='underline'>ASP.NET MVC</span> અને <span class='underline'>RESTful Web APIs</span> માં વિશેષતા સાથે, <span class='underline'>SOLID</span> સિદ્ધાંતો અને પ્રૂવ્ડ ડિઝાઇન પૅટર્ન્સ અપનાવીને મેન્ટેનેબલ આર્કિટેક્ચર બનાવું છું.",
+    "ડેટાબેઝ ડિઝાઇન અને ઓપ્ટિમાઇઝેશનમાં અનુભવ (<span class='underline'>SQL Server</span>, <span class='underline'>MySQL</span>) તથા <span class='underline'>Bootstrap</span> અને JavaScript સાથે મોડર્ન ફ્રન્ટએન્ડ બનાવવાનો અનુભવ છે.",
+    "હું જે ટેક્નોલોજીઝ પર કામ કરું છું (સીમિત નથી):"
+  ],
+
+  "Experience.Title": "અનુભવ",
+  "Experience.Jobs": [
+    {
+      "Tab": "Techcronus",
+      "Company": "Techcronus Business Solution Pvt. Lts.",
+      "Title": "સોફ્ટવેર ડેવલપર (ફુલ-સ્ટેક)",
+      "Date": "જાન્યુઆરી 2023 - વર્તમાન",
+      "Description": [
+        "ASP.NET Core, MVC અને Web API સાથે એન્ટરપ્રાઇઝ એપ્લિકેશન્સનું ફુલ-સ્ટેક ડેવલપમેન્ટ કર્યું.",
+        "સીમલેસ ઇન્ટિગ્રેશન્સ માટે ઓપ્ટિમાઇઝ્ડ પરફોર્મન્સ સાથે REST APIs ડિઝાઇન અને ડેવલપ કરી.",
+        "SOLID સિદ્ધાંતો અને પૅટર્ન્સ (Repository Pattern, Dependency Injection) અપનાવીને મેન્ટેનેબલ આર્કિટેક્ચર બનાવી.",
+        "સિસ્ટમ પરફોર્મન્સ અને વર્ક મેનેજમેન્ટ ઇફિશિયન્સી માટે ઑટોમેશન અને પેરાલેલ પ્રોસેસિંગ સોલ્યુશન્સ બનાવ્યા.",
+        "ક્લાયન્ટ કમ્યુનિકેશનથી લઈને પ્રોડક્શન ડિપ્લોયમેન્ટ સુધી મલ્ટિપલ પ્રોજેક્ટ્સનું એન્ડ-ટુ-એન્ડ ડિલિવરી મેનેજ કર્યું.",
+        "પ્રોડક્શનમાં ઈશ્યુઝ ટ્રબલશૂટ કરીને ડાઉનટાઇમ ઓછું રાખ્યું અને સ્ટેબલ રિલીઝમાં મદદ કરી.",
+        "Agile મેથોડોલોજી હેઠળ ક્રોસ-ફંક્શનલ ટીમ્સ સાથે કામ કર્યું."
+      ]
+    },
+    {
+      "Tab": "Freelance",
+      "Title": "ફ્રીલાન્સ / કોન્ટ્રેક્ટ ડેવલપર",
+      "Date": "ફ્રીલાન્સ અને કોન્ટ્રેક્ટ માટે ઉપલબ્ધ",
+      "Description": [
+        "કસ્ટમ ASP.NET Core વેબ એપ્લિકેશન્સ અને REST API ડિઝાઇન/ડેવલપમેન્ટ.",
+        "<span class='underline'>જિમ માટેનું ઇ-કોમર્સ વેબસાઇટ</span> બનાવવા અને એન્હાન્સ કરવા મદદ: પ્રોડક્ટ/કૅટાલોગ ફ્લોઝ, UI સુધારાઓ, પરફોર્મન્સ ઇમ્પ્રૂવમેન્ટ અને સતત એન્હાન્સમેન્ટ્સ.",
+        "WPF અને .NET MAUI વડે ડેસ્કટોપ એપ્લિકેશન ડેવલપમેન્ટ.",
+        "થર્ડ-પાર્ટી ઇન્ટિગ્રેશન્સ (Google APIs અને અન્ય સેવાઓ).",
+        "ડેટાબેઝ ડિઝાઇન, ઓપ્ટિમાઇઝેશન અને માઇગ્રેશન (SQL Server, MySQL).",
+        "લેગસી .NET મોડર્નાઇઝેશન, પરફોર્મન્સ ટ્યુનિંગ અને સપોર્ટ/મેન્ટેનેન્સ."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "મારા પ્રોજેક્ટ્સ",
+  "FeatureProjects.Label": "હાઇલાઇટેડ પ્રોજેક્ટ",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "PDF to Excel Report Converter (AI Extraction)",
+      "Description": "<span class='underline'>PDF-to-Excel</span> રિપોર્ટિંગ સોલ્યુશન ઑટોમેટેડ બનાવી, જેમાં <span class='underline'>Google Claude API</span> અને <span class='underline'>OpenAI API</span> ઇન્ટિગ્રેશનથી ક્લાયન્ટ ડેટા ચોક્કસ રીતે એક્સટ્રેક્ટ અને નોર્મલાઇઝ થાય. <span class='underline'>કન્સોલ એપ</span> અને <span class='underline'>Web API</span> બંને ડિલિવર કર્યા, અને CRM ટીમ માટે <span class='underline'>જોબ ક્યુ ઓટોમેશન</span> દ્વારા સ્કેલ પર વિશ્વસનીય રીતે રિપોર્ટ પ્રોસેસિંગ શક્ય બનાવ્યું.",
+      "imgs": [
+        "assets/images/projects/pdf-to-excel.svg",
+        "assets/images/projects/pdf-to-excel-2.svg",
+        "assets/images/projects/pdf-to-excel-3.svg"
+      ],
+      "Technologies": [".NET", "Web API", "Console App", "Job Queue", "Claude API", "OpenAI API", "Excel"]
+    },
+    {
+      "Title": "Centralized Pricing System",
+      "Description": "<span class='underline'>મલ્ટી-લેયર ઓથેન્ટિકેશન</span> અને <span class='underline'>OTP</span> સાથે સુરક્ષિત સેન્ટ્રલાઇઝ્ડ પ્રાઇસિંગ મેનેજમેન્ટ સિસ્ટમ શૂન્યથી બનાવી. <span class='underline'>REST APIs</span>, <span class='underline'>પેરાલેલ પ્રોસેસિંગ</span> અને હાઇ-વોલ્યુમ ક્વેરીઝ માટે ઓપ્ટિમાઇઝ્ડ <span class='underline'>SQL Server</span> સ્કીમા ઇમ્પ્લિમેન્ટ કર્યું.",
+      "imgs": [
+        "assets/images/projects/pricing-system.svg",
+        "assets/images/projects/pricing-system-2.svg",
+        "assets/images/projects/pricing-system-3.svg"
+      ],
+      "Technologies": [".NET Core MVC", "REST APIs", "SQL Server", "Parallel Programming", "Authentication/OTP"]
+    },
+    {
+      "Title": "Graffiti Management System",
+      "Description": "US ક્લાયન્ટ માટે <span class='underline'>Google Maps</span> ઇન્ટિગ્રેશન અને <span class='underline'>પોલિગોન માર્કિંગ</span> સાથે ગ્રાફિટી ટ્રેકિંગ/મેનેજમેન્ટ પ્લેટફોર્મ ડેવલપ કર્યું. <span class='underline'>Repository Pattern</span> સાથે ક્લીન MVC આર્કિટેક્ચર અને ઓપ્ટિમાઇઝ્ડ <span class='underline'>MySQL</span> ક્વેરીઝ ડિલિવર કરી.",
+      "imgs": [
+        "assets/images/projects/graffiti-system.svg",
+        "assets/images/projects/graffiti-system-2.svg",
+        "assets/images/projects/graffiti-system-3.svg"
+      ],
+      "Technologies": [".NET Core MVC", "Web API", "MySQL", "Google Maps API", "JavaScript"]
+    },
+    {
+      "Title": "Point of Sale (POS) System",
+      "Description": "<span class='underline'>WPF</span> આધારિત Windows POS સિસ્ટમને મેન્ટેન અને એન્હાન્સ કરી, વિશ્વસનીય ટ્રાન્ઝેક્શન પ્રોસેસિંગ માટે <span class='underline'>Entity Framework</span> અને <span class='underline'>SQL Server</span> સાથે DB ઓપરેશન્સ ઓપ્ટિમાઇઝ કર્યા. રિયલ-ટાઇમ એનાલિટિક્સ ડેશબોર્ડ અને અન્ય સિસ્ટમ્સ સાથે ઇન્ટિગ્રેશન ઉમેર્યા.",
+      "imgs": [
+        "assets/images/projects/pos-system.svg",
+        "assets/images/projects/pos-system-2.svg",
+        "assets/images/projects/pos-system-3.svg"
+      ],
+      "Technologies": ["WPF", "Entity Framework", "SQL Server", "REST APIs", "JavaScript/jQuery"]
+    }
+  ],
+
+  "OtherProjects.Title": "વધુ પ્રોજેક્ટ્સ",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Gym E-commerce Website (Freelance)",
+      "Description": "જિમ માટેનું ઇ-કોમર્સ વેબસાઇટ બનાવવામાં અને એન્હાન્સ કરવામાં મદદ કરી — પ્રોડક્ટ/કૅટાલોગ ફ્લોઝ, UI/UX પોલિશ, પરફોર્મન્સ અને મેન્ટેનેબિલિટી પર ફોકસ સાથે.",
+      "Technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", ".NET"]
+    },
+    {
+      "Title": "Vendor Portal Integration",
+      "Description": ".NET MVC આધારિત વેન્ડર મેનેજમેન્ટ પોર્ટલ પર સહકાર આપ્યો — મોડ્યુલ્સમાં કન્સિસ્ટન્ટ UI/UX અને API ઇન્ટિગ્રેશન દ્વારા વેન્ડર ઑનબોર્ડિંગ અને મેનેજમેન્ટ વર્કફ્લોઝ સુધાર્યા.",
+      "Technologies": [".NET MVC", "REST APIs", "SQL", "Bootstrap"]
+    },
+    {
+      "Title": "Candidate Management System",
+      "Description": "રિક્રૂટમેન્ટ પ્લેટફોર્મ બનાવ્યું — કૅન્ડિડેટ ટ્રેકિંગ, ફિલ્ટરિંગ, પ્રોફાઇલ મેનેજમેન્ટ અને જોબ પોસ્ટિંગ/યૂઝર મેનેજમેન્ટ માટે એડમિન પોર્ટલ.",
+      "Technologies": ["C# .NET Core", "ADO.NET", "SQL Server", "Bootstrap", "JavaScript/jQuery"]
+    },
+    {
+      "Title": "Desktop Tools & Automation",
+      "Description": "ઇન્ટર્નલ વર્કફ્લોઝ streamline કરવા અને ઓપરેશનલ ઇફિશિયન્સી વધારવા માટે ડેસ્કટોપ ટૂલ્સ અને ઑટોમેશન સોલ્યુશન્સ ડિલિવર કર્યા.",
+      "Technologies": ["WPF", ".NET MAUI", "C#", "Parallel Processing"]
+    },
+    {
+      "Title": "API Integrations",
+      "Description": "થર્ડ-પાર્ટી સર્વિસીસ (Google APIs સહિત) સાથે ઇન્ટિગ્રેશન્સ ઇમ્પ્લિમેન્ટ કરી — એન્ટરપ્રાઇઝ સિસ્ટમ્સ કનેક્ટ કરીને ડેટા એક્યુરેસી અને યૂઝર એક્સપિરિયન્સ સુધાર્યો.",
+      "Technologies": ["REST APIs", "SOAP APIs", "Google APIs", ".NET"]
+    },
+    {
+      "Title": "Legacy સિસ્ટમ મૉડર્નાઇઝેશન",
+      "Description": "લેગસી .NET એપ્લિકેશન્સને ક્લીન આર્કિટેક્ચર તરફ રિફેક્ટર કરીને પરફોર્મન્સ સુધાર્યું અને ઓછા downtime સાથે નવા મોડ્યુલ્સ ડિલિવર કર્યા.",
+      "Technologies": [".NET", "C#", "Refactoring", "Performance Tuning", "SQL"]
+    }
+  ],
+
+  "Contact.Pretitle": "અને હવે?",
+  "Contact.Title": "ચાલો વાત કરીએ",
+  "Contact.Content": "હું ફ્રીલાન્સ અને કોન્ટ્રેક્ટ કામ માટે ઉપલબ્ધ છું. મારી ફોકસ ASP.NET Core, APIs, ઇન્ટિગ્રેશન્સ અને ઑટોમેશન પર છે — ક્લિયર કમ્યુનિકેશન સાથે વિશ્વસનીય ડિલિવરી.",
+  "Contact.DetailsTitle": "ઝડપી માહિતી",
+  "Contact.Details": [
+    "ફ્રીલાન્સ અને કોન્ટ્રેક્ટ રોલ્સ માટે ઉપલબ્ધ",
+    "ટાઇમઝોન: IST (UTC+05:30)",
+    "સામાન્ય જવાબ સમય: 24 કલાકની અંદર",
+    "મુખ્યત્વે રિમોટ, જરૂર પડે તો (ભારત) ઑનસાઇટ પણ શક્ય"
+  ],
+  "Contact.ServicesTitle": "હું મદદ કરી શકું છું",
+  "Contact.Services": [
+    "ASP.NET Core / Web API ડેવલપમેન્ટ",
+    "ડેટાબેઝ ડિઝાઇન અને પરફોર્મન્સ (SQL Server / MySQL)",
+    "થર્ડ-પાર્ટી API ઇન્ટિગ્રેશન્સ (Google APIs, પેમેન્ટ્સ, વગેરે)",
+    "ઑટોમેશન અને ઇન્ટર્નલ ટૂલ્સ (WPF / .NET MAUI)"
+  ],
+  "Contact.Note": "એક ટૂંકું ઓવરવ્યૂ શેર કરો (લક્ષ્ય, ટાઇમલાઇન, ટેક સ્ટેક, અને કોઈ નિયંત્રણો). હું આગળના સ્ટેપ્સ અને સ્પષ્ટ પ્લાન સાથે જવાબ આપીશ.",
+  "Contact.LinkedInLabel": "LinkedIn પર જોડાઓ",
+  "Contact.Btn": "ચાલો જોડાઈએ"
+}
+

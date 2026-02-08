@@ -1,0 +1,153 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Let's connect",
+  "Header.cvName": "mailto:parasarmakwana18@gmail.com",
+  "Loading": "Loading...",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I’m an <span class='underline'>ASP.NET Full-Stack Developer</span> with <span class='underline'>2+ years of experience</span>, specialized in <span class='underline'>.NET Core</span> and <span class='underline'>Web APIs</span>. I build secure, scalable web and desktop applications with <span class='underline'>SQL Server/MySQL</span>, clean architecture (SOLID, design patterns), and performance-focused solutions.",
+  "Banner.ActionBtn": "Let's connect",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "ASP.NET Full-Stack Developer with <span class='underline'>2+ years of hands-on experience</span> delivering scalable, high-performance web applications and enterprise systems.",
+    "Specialized in <span class='underline'>.NET Core</span>, <span class='underline'>ASP.NET MVC</span>, and <span class='underline'>RESTful Web APIs</span>, applying <span class='underline'>SOLID</span> principles and proven design patterns for maintainable architecture.",
+    "Experienced in database design and optimization (<span class='underline'>SQL Server</span>, <span class='underline'>MySQL</span>) and modern frontends with <span class='underline'>Bootstrap</span> and JavaScript.",
+    "Some of the technologies I work with include (but are not limited to):"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Techcronus",
+      "Company": "Techcronus Business Solution Pvt. Lts.",
+      "Title": "Software Developer (Full-Stack)",
+      "Date": "January 2023 - Present",
+      "Description": [
+        "Led full-stack development of enterprise applications using ASP.NET Core, MVC, and Web API.",
+        "Designed and developed RESTful APIs with optimized performance for seamless integrations.",
+        "Applied SOLID principles and patterns (Repository Pattern, Dependency Injection) for maintainable architecture.",
+        "Built automation and parallel processing solutions to improve system performance and work management efficiency.",
+        "Managed end-to-end delivery across multiple concurrent projects, from client communication to production deployment.",
+        "Troubleshot and resolved production issues to minimize downtime and ensure smooth feature releases.",
+        "Collaborated with cross-functional teams using Agile methodologies."
+      ]
+    },
+    {
+      "Tab": "Freelance",
+      "Title": "Freelance & Contract Developer",
+      "Date": "Open for freelance & contract work",
+      "Description": [
+        "Custom ASP.NET Core web applications and REST API design/development.",
+        "Helped create and enhance a <span class='underline'>gym e-commerce website</span>: product/catalog flows, UI refinements, performance improvements, and ongoing enhancements.",
+        "Desktop application development using WPF and .NET MAUI.",
+        "Third-party integrations (Google APIs and other services).",
+        "Database design, optimization, and migrations (SQL Server, MySQL).",
+        "Legacy .NET modernization, performance tuning, and ongoing support."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Highlighted Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "PDF to Excel Report Converter (AI Extraction)",
+      "Description": "Built an automated <span class='underline'>PDF-to-Excel</span> reporting solution using <span class='underline'>Google Claude API</span> and <span class='underline'>OpenAI API</span> to accurately extract and normalize client data. Delivered both a <span class='underline'>console app</span> and a <span class='underline'>Web API</span> with <span class='underline'>job queue automation</span> for the CRM team to process reports reliably at scale.",
+      "imgs": [
+        "assets/images/projects/pdf-to-excel.svg",
+        "assets/images/projects/pdf-to-excel-2.svg",
+        "assets/images/projects/pdf-to-excel-3.svg"
+      ],
+      "Technologies": [".NET", "Web API", "Console App", "Job Queue", "Claude API", "OpenAI API", "Excel"]
+    },
+    {
+      "Title": "Centralized Pricing System",
+      "Description": "Built a secure centralized pricing management system from scratch with <span class='underline'>multi-layer authentication</span> and <span class='underline'>OTP</span>. Implemented <span class='underline'>REST APIs</span>, <span class='underline'>parallel processing</span> for concurrent updates, and an optimized <span class='underline'>SQL Server</span> schema for high-volume queries.",
+      "imgs": [
+        "assets/images/projects/pricing-system.svg",
+        "assets/images/projects/pricing-system-2.svg",
+        "assets/images/projects/pricing-system-3.svg"
+      ],
+      "Technologies": [".NET Core MVC", "REST APIs", "SQL Server", "Parallel Programming", "Authentication/OTP"]
+    },
+    {
+      "Title": "Graffiti Management System",
+      "Description": "Developed a graffiti tracking platform for a US client with <span class='underline'>Google Maps</span> integration and <span class='underline'>polygon marking</span> to identify affected areas. Delivered a clean MVC architecture with <span class='underline'>Repository Pattern</span>, modular design, and optimized <span class='underline'>MySQL</span> queries.",
+      "imgs": [
+        "assets/images/projects/graffiti-system.svg",
+        "assets/images/projects/graffiti-system-2.svg",
+        "assets/images/projects/graffiti-system-3.svg"
+      ],
+      "Technologies": [".NET Core MVC", "Web API", "MySQL", "Google Maps API", "JavaScript"]
+    },
+    {
+      "Title": "Point of Sale (POS) System",
+      "Description": "Enhanced and maintained a Windows desktop POS system with a modern <span class='underline'>WPF</span> UI, reliable transaction processing, and optimized database operations using <span class='underline'>Entity Framework</span> and <span class='underline'>SQL Server</span>. Added real-time analytics dashboards and integrations with existing business systems.",
+      "imgs": [
+        "assets/images/projects/pos-system.svg",
+        "assets/images/projects/pos-system-2.svg",
+        "assets/images/projects/pos-system-3.svg"
+      ],
+      "Technologies": ["WPF", "Entity Framework", "SQL Server", "REST APIs", "JavaScript/jQuery"]
+    }
+  ],
+
+  "OtherProjects.Title": "More Projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Gym E-commerce Website (Freelance)",
+      "Description": "Helped build and enhance a gym e-commerce website, focusing on product/catalog flows, UI/UX polish, performance, and maintainability.",
+      "Technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", ".NET"]
+    },
+    {
+      "Title": "Vendor Portal Integration",
+      "Description": "Collaborated on a .NET MVC-based vendor management portal with consistent UI/UX across modules and seamless API integrations for vendor onboarding and management workflows.",
+      "Technologies": [".NET MVC", "REST APIs", "SQL", "Bootstrap"]
+    },
+    {
+      "Title": "Candidate Management System",
+      "Description": "Built a recruitment platform with candidate tracking, filtering, and profile management, plus an admin portal for job postings and user management.",
+      "Technologies": ["C# .NET Core", "ADO.NET", "SQL Server", "Bootstrap", "JavaScript/jQuery"]
+    },
+    {
+      "Title": "Desktop Tools & Automation",
+      "Description": "Delivered productivity-focused desktop utilities and automation scripts to streamline internal workflows and improve operational efficiency.",
+      "Technologies": ["WPF", ".NET MAUI", "C#", "Parallel Processing"]
+    },
+    {
+      "Title": "API Integrations",
+      "Description": "Implemented integrations with third-party services (including Google APIs) to connect enterprise systems and improve data accuracy and user experience.",
+      "Technologies": ["REST APIs", "SOAP APIs", "Google APIs", ".NET"]
+    },
+    {
+      "Title": "Legacy System Modernization",
+      "Description": "Modernized legacy .NET applications by refactoring toward clean architecture, improving performance, and delivering new modules with minimal downtime.",
+      "Technologies": [".NET", "C#", "Refactoring", "Performance Tuning", "SQL"]
+    }
+  ],
+
+  "Contact.Pretitle": "And... now?",
+  "Contact.Title": "Let’s talk",
+  "Contact.Content": "Open for freelance and contract work. I focus on ASP.NET Core, APIs, integrations, and automation—shipping reliable features with clear communication.",
+  "Contact.DetailsTitle": "Quick details",
+  "Contact.Details": [
+    "Available for freelance & contract roles",
+    "Timezone: IST (UTC+05:30)",
+    "Typical response time: within 24 hours",
+    "Remote-first, open to onsite (India) when needed"
+  ],
+  "Contact.ServicesTitle": "I can help with",
+  "Contact.Services": [
+    "ASP.NET Core / Web API development",
+    "Database design & performance (SQL Server / MySQL)",
+    "3rd‑party API integrations (Google APIs, payments, etc.)",
+    "Automation & internal tools (WPF / .NET MAUI)"
+  ],
+  "Contact.Note": "Share a brief overview (goal, timeline, tech stack, and any constraints). I’ll reply with next steps and a clear plan.",
+  "Contact.LinkedInLabel": "Connect on LinkedIn",
+  "Contact.Btn": "Let's connect"
+}

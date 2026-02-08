@@ -8,12 +8,12 @@
   "Loading": "Cargando...",
 
   "Banner.Pretitle": "Hola! Mi nombre es",
-  "Banner.Description": "Soy <span class='underline'>desarrollador full-stack en ASP.NET</span> con <span class='underline'>más de 2 años de experiencia</span>, especializado en <span class='underline'>.NET Core</span> y <span class='underline'>Web APIs</span>. Desarrollo aplicaciones web y de escritorio seguras y escalables con <span class='underline'>SQL Server/MySQL</span>, arquitectura limpia (SOLID, patrones de diseño) y foco en rendimiento.",
+  "Banner.Description": "Soy <span class='underline'>desarrollador full-stack en .NET Core</span> con <span class='underline'>más de 2 años de experiencia</span>, especializado en <span class='underline'>Web APIs</span>. Desarrollo aplicaciones web y de escritorio seguras y escalables con <span class='underline'>SQL Server/MySQL</span>, arquitectura limpia (SOLID, patrones de diseño) y foco en rendimiento.",
   "Banner.ActionBtn": "Conectemos",
 
   "AboutMe.Title": "Acerca de mí",
   "AboutMe.Paragraphs": [
-    "Desarrollador <span class='underline'>full-stack en ASP.NET</span> con <span class='underline'>más de 2 años de experiencia</span> entregando aplicaciones web escalables, de alto rendimiento y sistemas empresariales.",
+    "Desarrollador <span class='underline'>full-stack en .NET Core</span> con <span class='underline'>más de 2 años de experiencia</span> entregando aplicaciones web escalables, de alto rendimiento y sistemas empresariales.",
     "Especializado en <span class='underline'>.NET Core</span>, <span class='underline'>ASP.NET MVC</span> y <span class='underline'>Web APIs REST</span>, aplicando principios <span class='underline'>SOLID</span> y patrones de diseño para una arquitectura mantenible.",
     "Experiencia en diseño y optimización de bases de datos (<span class='underline'>SQL Server</span>, <span class='underline'>MySQL</span>) y frontends modernos con <span class='underline'>Bootstrap</span> y JavaScript.",
     "Algunas tecnologías con las que trabajo incluyen (pero no se limitan a):"

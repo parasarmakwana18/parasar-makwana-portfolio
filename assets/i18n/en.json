@@ -8,12 +8,12 @@
   "Loading": "Loading...",
 
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I’m an <span class='underline'>ASP.NET Full-Stack Developer</span> with <span class='underline'>2+ years of experience</span>, specialized in <span class='underline'>.NET Core</span> and <span class='underline'>Web APIs</span>. I build secure, scalable web and desktop applications with <span class='underline'>SQL Server/MySQL</span>, clean architecture (SOLID, design patterns), and performance-focused solutions.",
+  "Banner.Description": "I’m a <span class='underline'>.NET Core Full-Stack Developer</span> with <span class='underline'>2+ years of experience</span>, specialized in <span class='underline'>Web APIs</span>. I build secure, scalable web and desktop applications with <span class='underline'>SQL Server/MySQL</span>, clean architecture (SOLID, design patterns), and performance-focused solutions.",
   "Banner.ActionBtn": "Let's connect",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "ASP.NET Full-Stack Developer with <span class='underline'>2+ years of hands-on experience</span> delivering scalable, high-performance web applications and enterprise systems.",
+    ".NET Core Full-Stack Developer with <span class='underline'>2+ years of hands-on experience</span> delivering scalable, high-performance web applications and enterprise systems.",
     "Specialized in <span class='underline'>.NET Core</span>, <span class='underline'>ASP.NET MVC</span>, and <span class='underline'>RESTful Web APIs</span>, applying <span class='underline'>SOLID</span> principles and proven design patterns for maintainable architecture.",
     "Experienced in database design and optimization (<span class='underline'>SQL Server</span>, <span class='underline'>MySQL</span>) and modern frontends with <span class='underline'>Bootstrap</span> and JavaScript.",
     "Some of the technologies I work with include (but are not limited to):"

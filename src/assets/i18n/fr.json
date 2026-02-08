@@ -8,12 +8,12 @@
   "Loading": "Chargement...",
 
   "Banner.Pretitle": "Bonjour ! Je m’appelle",
-  "Banner.Description": "Je suis <span class='underline'>développeur full-stack ASP.NET</span> avec <span class='underline'>plus de 2 ans d’expérience</span>, spécialisé en <span class='underline'>.NET Core</span> et <span class='underline'>Web APIs</span>. Je conçois des applications web et desktop sécurisées et évolutives avec <span class='underline'>SQL Server/MySQL</span>, une architecture propre (SOLID, patterns) et une approche orientée performance.",
+  "Banner.Description": "Je suis <span class='underline'>développeur full-stack .NET Core</span> avec <span class='underline'>plus de 2 ans d’expérience</span>, spécialisé en <span class='underline'>Web APIs</span>. Je conçois des applications web et desktop sécurisées et évolutives avec <span class='underline'>SQL Server/MySQL</span>, une architecture propre (SOLID, patterns) et une approche orientée performance.",
   "Banner.ActionBtn": "Connectons-nous",
 
   "AboutMe.Title": "À propos",
   "AboutMe.Paragraphs": [
-    "Développeur full-stack ASP.NET avec <span class='underline'>plus de 2 ans d’expérience</span> dans la livraison d’applications web performantes et de systèmes d’entreprise.",
+    "Développeur full-stack .NET Core avec <span class='underline'>plus de 2 ans d’expérience</span> dans la livraison d’applications web performantes et de systèmes d’entreprise.",
     "Spécialisé en <span class='underline'>.NET Core</span>, <span class='underline'>ASP.NET MVC</span> et <span class='underline'>Web APIs REST</span>, avec application des principes <span class='underline'>SOLID</span> et de patterns éprouvés pour une architecture maintenable.",
     "Expérience en conception et optimisation de bases de données (<span class='underline'>SQL Server</span>, <span class='underline'>MySQL</span>) et en front-end moderne avec <span class='underline'>Bootstrap</span> et JavaScript.",
     "Quelques technologies avec lesquelles je travaille (liste non exhaustive) :"

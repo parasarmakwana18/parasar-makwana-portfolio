@@ -33,11 +33,11 @@ export class AppComponent implements OnInit, OnDestroy{
 
     this.languageService.initLanguage()
 
-    this.titleService.setTitle("Parasar Makwana | ASP.NET Full-Stack Developer");
+    this.titleService.setTitle("Parasar Makwana | .NET Core Full-Stack Developer");
 
     this.metaService.addTags([
-      {name: 'keywords', content: 'ASP.NET Core, .NET, Web API, C#, Full-stack developer, SQL Server, MySQL, WPF, MAUI'},
-      {name: 'description', content: 'ASP.NET Full-Stack Developer specialized in .NET Core and Web APIs. Building scalable web and desktop applications with clean architecture, SOLID principles, and performance-focused solutions.'},
+      {name: 'keywords', content: '.NET Core, .NET, Web API, C#, Full-stack developer, SQL Server, MySQL, WPF, MAUI'},
+      {name: 'description', content: '.NET Core Full-Stack Developer specialized in Web APIs. Building scalable web and desktop applications with clean architecture, SOLID principles, and performance-focused solutions.'},
     ]);
 
     // Inicializar partículas globales después de un breve delay

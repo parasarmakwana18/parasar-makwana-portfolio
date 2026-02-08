@@ -8,12 +8,12 @@
   "Loading": "読み込み中...",
 
   "Banner.Pretitle": "こんにちは！私の名前は",
-  "Banner.Description": "<span class='underline'>2年以上の経験</span>を持つ<span class='underline'>ASP.NETフルスタック開発者</span>です。<span class='underline'>.NET Core</span> と <span class='underline'>Web API</span> を中心に、<span class='underline'>SQL Server/MySQL</span> を用いた安全でスケーラブルなWeb/デスクトップアプリを、SOLIDや設計パターンに基づくクリーンアーキテクチャで構築します。",
+  "Banner.Description": "<span class='underline'>2年以上の経験</span>を持つ<span class='underline'>.NET Coreフルスタック開発者</span>です。<span class='underline'>Web API</span> を中心に、<span class='underline'>SQL Server/MySQL</span> を用いた安全でスケーラブルなWeb/デスクトップアプリを、SOLIDや設計パターンに基づくクリーンアーキテクチャで構築します。",
   "Banner.ActionBtn": "つながりましょう",
 
   "AboutMe.Title": "自己紹介",
   "AboutMe.Paragraphs": [
-    "<span class='underline'>2年以上の実務経験</span>を持つASP.NETフルスタック開発者として、高性能なWebアプリケーションやエンタープライズシステムを提供してきました。",
+    "<span class='underline'>2年以上の実務経験</span>を持つ.NET Coreフルスタック開発者として、高性能なWebアプリケーションやエンタープライズシステムを提供してきました。",
     "<span class='underline'>.NET Core</span>、<span class='underline'>ASP.NET MVC</span>、<span class='underline'>RESTful Web API</span> を専門とし、<span class='underline'>SOLID</span>原則や設計パターンを適用して保守性の高いアーキテクチャを実現します。",
     "<span class='underline'>SQL Server</span>・<span class='underline'>MySQL</span> のDB設計/最適化に加え、<span class='underline'>Bootstrap</span> とJavaScriptによるモダンなフロントエンドにも対応します。",
     "主に扱う技術（抜粋）:"

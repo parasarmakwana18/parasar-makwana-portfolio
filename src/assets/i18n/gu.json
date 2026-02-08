@@ -8,12 +8,12 @@
   "Loading": "લોડ થઈ રહ્યું છે...",
 
   "Banner.Pretitle": "હાય! મારું નામ છે",
-  "Banner.Description": "હું <span class='underline'>2+ વર્ષના અનુભવ</span> ધરાવતો <span class='underline'>ASP.NET ફુલ-સ્ટેક ડેવલપર</span> છું, <span class='underline'>.NET Core</span> અને <span class='underline'>Web APIs</span> માં વિશેષતા સાથે. હું <span class='underline'>SQL Server/MySQL</span> સાથે સુરક્ષિત અને સ્કેલેબલ વેબ અને ડેસ્કટોપ એપ્લિકેશન્સ બનાવું છું, SOLID અને ડિઝાઇન પૅટર્ન્સ આધારિત ક્લીન આર્કિટેક્ચર અને પરફોર્મન્સ-ફોકસ્ડ અભિગમ સાથે.",
+  "Banner.Description": "હું <span class='underline'>2+ વર્ષના અનુભવ</span> ધરાવતો <span class='underline'>.NET Core ફુલ-સ્ટેક ડેવલપર</span> છું, <span class='underline'>Web APIs</span> માં વિશેષતા સાથે. હું <span class='underline'>SQL Server/MySQL</span> સાથે સુરક્ષિત અને સ્કેલેબલ વેબ અને ડેસ્કટોપ એપ્લિકેશન્સ બનાવું છું, SOLID અને ડિઝાઇન પૅટર્ન્સ આધારિત ક્લીન આર્કિટેક્ચર અને પરફોર્મન્સ-ફોકસ્ડ અભિગમ સાથે.",
   "Banner.ActionBtn": "ચાલો જોડાઈએ",
 
   "AboutMe.Title": "મારા વિશે",
   "AboutMe.Paragraphs": [
-    "ASP.NET ફુલ-સ્ટેક ડેવલપર તરીકે <span class='underline'>2+ વર્ષનો હેન્ડ્સ-ઓન અનુભવ</span> ધરાવું છું અને સ્કેલેબલ, હાઇ-પરફોર્મન્સ વેબ એપ્લિકેશન તથા એન્ટરપ્રાઇઝ સિસ્ટમ્સ ડિલિવર કરી છે.",
+    ".NET Core ફુલ-સ્ટેક ડેવલપર તરીકે <span class='underline'>2+ વર્ષનો હેન્ડ્સ-ઓન અનુભવ</span> ધરાવું છું અને સ્કેલેબલ, હાઇ-પરફોર્મન્સ વેબ એપ્લિકેશન તથા એન્ટરપ્રાઇઝ સિસ્ટમ્સ ડિલિવર કરી છે.",
     "<span class='underline'>.NET Core</span>, <span class='underline'>ASP.NET MVC</span> અને <span class='underline'>RESTful Web APIs</span> માં વિશેષતા સાથે, <span class='underline'>SOLID</span> સિદ્ધાંતો અને પ્રૂવ્ડ ડિઝાઇન પૅટર્ન્સ અપનાવીને મેન્ટેનેબલ આર્કિટેક્ચર બનાવું છું.",
     "ડેટાબેઝ ડિઝાઇન અને ઓપ્ટિમાઇઝેશનમાં અનુભવ (<span class='underline'>SQL Server</span>, <span class='underline'>MySQL</span>) તથા <span class='underline'>Bootstrap</span> અને JavaScript સાથે મોડર્ન ફ્રન્ટએન્ડ બનાવવાનો અનુભવ છે.",
     "હું જે ટેક્નોલોજીઝ પર કામ કરું છું (સીમિત નથી):"

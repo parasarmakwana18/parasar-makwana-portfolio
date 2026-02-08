@@ -11,7 +11,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import {
   TranslateLoader,
   TranslateModule,
@@ -44,5 +44,9 @@ export function HttpLoaderFactory(http: HttpClient) {
                 deps: [HttpClient],
             },
         }),
-        NgbModule], providers: [TranslateService, provideHttpClient(withInterceptorsFromDi())] })
+        NgbModule,
+        HttpClientModule
+      ],
+    providers: [TranslateService],
+})
 export class AppModule {}

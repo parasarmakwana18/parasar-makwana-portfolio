@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build-portfolio": "ng build --configuration production",
-    "build:prod": "ng build --configuration production --base-href ./",
+    "build:prod": "ng build --configuration production --base-href /parasar-makwana-portfolio/",
     "postbuild:prod": "node scripts/postbuild-prod.js",
     "deploy": "npm run build:prod && npm run postbuild:prod && ngh --dir=dist/parasar-makwana-portfolio/browser",
     "deploy:ci": "npm run postbuild:prod && ngh --dir=dist/parasar-makwana-portfolio/browser --no-silent",

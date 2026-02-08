@@ -37,7 +37,7 @@ Note: production is configured with a **relative base href** (`./`) so assets wo
 ```bash
 npm run deploy
 ```
-If you use a custom domain, set it in `CNAME` (and the deploy script will copy it into the build output).
+If you use a custom domain, create a `CNAME` file at the repo root (and the deploy script will copy it into the build output).
 
 ## Attribution (design inspiration)
 This portfolio is inspired by Brittany Chiang’s work (design inspiration). See her repo: `https://github.com/bchiang7/v4`.

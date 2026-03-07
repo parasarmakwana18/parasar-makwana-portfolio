@@ -1,15 +1,30 @@
 {
   "Header.Item1": "મારા વિશે",
-  "Header.Item2": "અનુભવ",
-  "Header.Item3": "પ્રોજેક્ટ્સ",
-  "Header.Item4": "સંપર્ક",
+  "Header.Item2": "કૌશલ્ય",
+  "Header.Item3": "અનુભવ",
+  "Header.Item4": "પ્રોજેક્ટ્સ",
+  "Header.Item5": "સંપર્ક",
   "Header.cvBtn": "ચાલો જોડાઈએ",
   "Header.cvName": "mailto:parasarmakwana18@gmail.com",
   "Loading": "લોડ થઈ રહ્યું છે...",
 
   "Banner.Pretitle": "હાય! મારું નામ છે",
+  "Hero.Title": "ફુલ-સ્ટેક .NET ડેવલપર",
+  "Hero.Tagline": "ASP.NET Core અને આધુનિક વિકાસ પદ્ધતિઓ સાથે સ્કેલેબલ વેબ અને ડેસ્કટોપ એપ્લિકેશન્સ બનાવું છું.",
+  "Hero.CTAProjects": "પ્રોજેક્ટ્સ જુઓ",
+  "Hero.CTAContact": "સંપર્ક કરો",
   "Banner.Description": "હું <span class='underline'>2+ વર્ષના અનુભવ</span> ધરાવતો <span class='underline'>.NET Core ફુલ-સ્ટેક ડેવલપર</span> છું, <span class='underline'>Web APIs</span> માં વિશેષતા સાથે. હું <span class='underline'>SQL Server/MySQL</span> સાથે સુરક્ષિત અને સ્કેલેબલ વેબ અને ડેસ્કટોપ એપ્લિકેશન્સ બનાવું છું, SOLID અને ડિઝાઇન પૅટર્ન્સ આધારિત ક્લીન આર્કિટેક્ચર અને પરફોર્મન્સ-ફોકસ્ડ અભિગમ સાથે.",
   "Banner.ActionBtn": "ચાલો જોડાઈએ",
+
+  "Skills.Title": "કૌશલ્ય",
+  "Skills.Lead": "વેબ, APIs અને ડેસ્કટોપ માટે વિશ્વસનીય એન્ટરપ્રાઇઝ એપ્લિકેશન્સ બનાવવા માટેનું કૌશલ્ય સેટ.",
+  "Skills.Groups": [
+    { "Title": "બૅકએન્ડ", "Items": [".NET", "ASP.NET Core", ".NET MVC", "Web API", "Entity Framework", "SOLID / પેટર્ન્સ"] },
+    { "Title": "ફ્રન્ટએન્ડ", "Items": ["HTML", "CSS", "Bootstrap", "JavaScript"] },
+    { "Title": "ડેટાબેઝ", "Items": ["SQL Server", "MySQL", "ક્વેરી ઓપ્ટિમાઇઝેશન"] },
+    { "Title": "ટૂલ્સ", "Items": ["Azure DevOps", "Git", "CI/CD"] },
+    { "Title": "ડેસ્કટોપ", "Items": ["WPF", "Windows ડેસ્કટોપ"] }
+  ],
 
   "AboutMe.Title": "મારા વિશે",
   "AboutMe.Paragraphs": [

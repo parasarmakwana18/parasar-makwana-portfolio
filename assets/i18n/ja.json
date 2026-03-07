@@ -1,15 +1,30 @@
 {
   "Header.Item1": "自己紹介",
-  "Header.Item2": "経験",
-  "Header.Item3": "プロジェクト",
-  "Header.Item4": "お問い合わせ",
+  "Header.Item2": "スキル",
+  "Header.Item3": "経験",
+  "Header.Item4": "プロジェクト",
+  "Header.Item5": "お問い合わせ",
   "Header.cvBtn": "つながりましょう",
   "Header.cvName": "mailto:parasarmakwana18@gmail.com",
   "Loading": "読み込み中...",
 
   "Banner.Pretitle": "こんにちは！私の名前は",
+  "Hero.Title": "フルスタック .NET 開発者",
+  "Hero.Tagline": "ASP.NET Core とモダンな開発手法で、スケーラブルな Web / デスクトップアプリを構築します。",
+  "Hero.CTAProjects": "プロジェクトを見る",
+  "Hero.CTAContact": "連絡する",
   "Banner.Description": "<span class='underline'>2年以上の経験</span>を持つ<span class='underline'>.NET Coreフルスタック開発者</span>です。<span class='underline'>Web API</span> を中心に、<span class='underline'>SQL Server/MySQL</span> を用いた安全でスケーラブルなWeb/デスクトップアプリを、SOLIDや設計パターンに基づくクリーンアーキテクチャで構築します。",
   "Banner.ActionBtn": "つながりましょう",
+
+  "Skills.Title": "スキル",
+  "Skills.Lead": "Web・API・デスクトップのエンタープライズ開発に必要なスキルセット。",
+  "Skills.Groups": [
+    { "Title": "バックエンド", "Items": [".NET", "ASP.NET Core", ".NET MVC", "Web API", "Entity Framework", "SOLID / パターン"] },
+    { "Title": "フロントエンド", "Items": ["HTML", "CSS", "Bootstrap", "JavaScript"] },
+    { "Title": "データベース", "Items": ["SQL Server", "MySQL", "クエリ最適化"] },
+    { "Title": "ツール", "Items": ["Azure DevOps", "Git", "CI/CD"] },
+    { "Title": "デスクトップ", "Items": ["WPF", "Windows デスクトップ"] }
+  ],
 
   "AboutMe.Title": "自己紹介",
   "AboutMe.Paragraphs": [

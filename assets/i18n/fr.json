@@ -1,15 +1,30 @@
 {
   "Header.Item1": "À propos",
-  "Header.Item2": "Expérience",
-  "Header.Item3": "Projets",
-  "Header.Item4": "Contact",
+  "Header.Item2": "Compétences",
+  "Header.Item3": "Expérience",
+  "Header.Item4": "Projets",
+  "Header.Item5": "Contact",
   "Header.cvBtn": "Connectons-nous",
   "Header.cvName": "mailto:parasarmakwana18@gmail.com",
   "Loading": "Chargement...",
 
   "Banner.Pretitle": "Bonjour ! Je m’appelle",
+  "Hero.Title": "Développeur Full-Stack .NET",
+  "Hero.Tagline": "Je crée des applications web et desktop évolutives avec ASP.NET Core et des pratiques modernes de développement.",
+  "Hero.CTAProjects": "Voir les projets",
+  "Hero.CTAContact": "Me contacter",
   "Banner.Description": "Je suis <span class='underline'>développeur full-stack .NET Core</span> avec <span class='underline'>plus de 2 ans d’expérience</span>, spécialisé en <span class='underline'>Web APIs</span>. Je conçois des applications web et desktop sécurisées et évolutives avec <span class='underline'>SQL Server/MySQL</span>, une architecture propre (SOLID, patterns) et une approche orientée performance.",
   "Banner.ActionBtn": "Connectons-nous",
+
+  "Skills.Title": "Compétences",
+  "Skills.Lead": "Un ensemble de compétences ciblées pour construire des applications d’entreprise fiables (web, APIs et desktop).",
+  "Skills.Groups": [
+    { "Title": "Backend", "Items": [".NET", "ASP.NET Core", ".NET MVC", "Web API", "Entity Framework", "SOLID & patterns"] },
+    { "Title": "Frontend", "Items": ["HTML", "CSS", "Bootstrap", "JavaScript"] },
+    { "Title": "Bases de données", "Items": ["SQL Server", "MySQL", "Optimisation des requêtes"] },
+    { "Title": "Outils", "Items": ["Azure DevOps", "Git", "CI/CD"] },
+    { "Title": "Desktop", "Items": ["WPF", "Applications Windows"] }
+  ],
 
   "AboutMe.Title": "À propos",
   "AboutMe.Paragraphs": [

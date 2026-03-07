@@ -26,7 +26,7 @@
   "Skills.Lead": "A focused toolkit for building reliable enterprise applications across web, APIs, and desktop.",
   "Skills.Groups": [
     { "Title": "Backend", "Items": [".NET", "ASP.NET Core", ".NET MVC", "Web API", "Entity Framework", "SOLID & Patterns"] },
-    { "Title": "Frontend", "Items": ["HTML", "CSS", "Bootstrap", "JavaScript"] },
+    { "Title": "Frontend", "Items": ["HTML", "CSS", "Bootstrap", "JavaScript", "Angular", "React"] },
     { "Title": "Databases", "Items": ["SQL Server", "MySQL", "Query Optimization"] },
     { "Title": "Tools", "Items": ["Azure DevOps", "Git", "CI/CD"] },
     { "Title": "Desktop", "Items": ["WPF", "Windows Desktop Apps"] }

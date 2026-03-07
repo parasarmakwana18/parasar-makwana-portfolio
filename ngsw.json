@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1772876659499,
+  "timestamp": 1772876897616,
   "index": "/parasar-makwana-portfolio/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/parasar-makwana-portfolio/favicon.ico",
         "/parasar-makwana-portfolio/index.html",
-        "/parasar-makwana-portfolio/main-K6J5F36P.js",
+        "/parasar-makwana-portfolio/main-RJVRVHEY.js",
         "/parasar-makwana-portfolio/manifest.webmanifest",
         "/parasar-makwana-portfolio/polyfills-CQZK2RGY.js",
         "/parasar-makwana-portfolio/styles-PLHPQ7IE.css"
@@ -345,8 +345,8 @@
     "/parasar-makwana-portfolio/assets/images/vasaviation/capture5.png": "0d2c4b52a52de08ead007aa5e4ea28c2cf45ca45",
     "/parasar-makwana-portfolio/assets/lotties/loader.json": "2766ab688f8b10bdaca3c8215141db5956339b49",
     "/parasar-makwana-portfolio/favicon.ico": "216416b0e8efb71cc8e66e11cc40baf206704576",
-    "/parasar-makwana-portfolio/index.html": "a412856dc19e77183b58dcfb1b40c38eddeb9e11",
-    "/parasar-makwana-portfolio/main-K6J5F36P.js": "481742e8e33d25cf67f100b6187e6ddb1521eefc",
+    "/parasar-makwana-portfolio/index.html": "b40801641a290185252a88941325fa2441f6d8ab",
+    "/parasar-makwana-portfolio/main-RJVRVHEY.js": "6bbc89c37fc79ba1c204332a81c32c94b08b09fd",
     "/parasar-makwana-portfolio/manifest.webmanifest": "179fadbe3fe9118361ec19b4a79fe34cbe5757ff",
     "/parasar-makwana-portfolio/polyfills-CQZK2RGY.js": "bf02eddaeea9a385afd1d56994168bba943fc820",
     "/parasar-makwana-portfolio/styles-PLHPQ7IE.css": "cec1075b4386ddd2da902287d4680393c6d610b1"
